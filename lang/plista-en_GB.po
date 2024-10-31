@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plista\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-17 16:23+0100\n"
+"PO-Revision-Date: 2015-04-13 10:13+0100\n"
+"Last-Translator: Michael <mich.scharnagl@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../plista_integration_admin.php:120
+msgid "Options saved."
+msgstr "Options saved"
+
+#: ../plista_integration_admin.php:169
+msgid "Hint"
+msgstr "Hint"
+
+#: ../plista_integration_admin.php:170
+#, php-format
+msgid "You have to register at %1$s first to get all necessary data."
+msgstr "You have to register at%1$s first to get all necessary data."
+
+#: ../plista_integration_admin.php:171
+#, php-format
+msgid "Please pay attention to the %1$s"
+msgstr "Please pay attention to the%1$s"
+
+#: ../plista_integration_admin.php:175
+msgid "Basic settings"
+msgstr "Basic settings"
+
+#: ../plista_integration_admin.php:177
+msgid "Widgetname"
+msgstr "Widgetname"
+
+#: ../plista_integration_admin.php:177 ../plista_integration_admin.php:183
+msgid "required"
+msgstr "required"
+
+#: ../plista_integration_admin.php:179 ../plista_integration_admin.php:185
+#: ../plista_integration_admin.php:207 ../plista_integration_admin.php:294
+#: ../plista_integration_admin.php:300 ../plista_integration_admin.php:306
+#: ../plista_integration_admin.php:312 ../plista_integration_admin.php:318
+#: ../plista_integration_admin.php:324 ../plista_integration_admin.php:330
+#: ../plista_integration_admin.php:336 ../plista_integration_admin.php:342
+#: ../plista_integration_admin.php:348 ../plista_integration_admin.php:364
+#: ../plista_integration_admin.php:369 ../plista_integration_admin.php:374
+#: ../plista_integration_admin.php:379 ../plista_integration_admin.php:384
+#: ../plista_integration_admin.php:389 ../plista_integration_admin.php:394
+#: ../plista_integration_admin.php:399 ../plista_integration_admin.php:404
+msgid "e.g."
+msgstr "e.g."
+
+msgid "Reinit"
+msgstr "This option makes widgets reload, whenever another plista script tag is inserted (needed for \"Infinite Scroll Websites\")."
+
+#: ../plista_integration_admin.php:183
+msgid "Publickey"
+msgstr "Publickey"
+
+#: ../plista_integration_admin.php:190
+msgid "Widget position"
+msgstr "Widget position"
+
+#: ../plista_integration_admin.php:191
+msgid "The widget will be shown automatically at the bottom of every article."
+msgstr ""
+"The widget will be shown automatically at the bottom of every article."
+
+#: ../plista_integration_admin.php:192
+msgid ""
+"Only check the option if you want to insert the widget on a different "
+"position like the sidebar."
+msgstr ""
+"Only check this option if you want to insert the widget on a different "
+"position, e.g. the sidebar."
+
+#: ../plista_integration_admin.php:193
+#, php-format
+msgid "Please read point 11. of the %1$s before activating self positioning"
+msgstr "Please read point 11. of the %1$s before activating self positioning"
+
+#: ../plista_integration_admin.php:196
+msgid "Yes, I would like to position the widget"
+msgstr "Yes, I would like to position the widget on my own"
+
+#: ../plista_integration_admin.php:202 ../plista_integration_admin.php:205
+msgid "Default image"
+msgstr "Default image"
+
+#: ../plista_integration_admin.php:203
+msgid "Define a default image for articles without an image."
+msgstr "Define a default image for articles without an image."
+
+#: ../plista_integration_admin.php:205
+msgid "optional"
+msgstr "optional"
+
+#: ../plista_integration_admin.php:212
+msgid "Exclude pages"
+msgstr "Exclude pages"
+
+#: ../plista_integration_admin.php:215
+msgid "Don't show the widget on some pages"
+msgstr "Don't show the widget on some pages"
+
+#: ../plista_integration_admin.php:219
+msgid "Exclude the following pages"
+msgstr "Exclude the following pages"
+
+#: ../plista_integration_admin.php:221
+msgid ""
+"Insert the Page-Id's separated by comma (e.g.: 5, 235, 1340) where the "
+"widget should be excluded"
+msgstr ""
+"Insert the Page-Id's separated by comma (e.g.: 5, 235, 1340) where the "
+"widget should be excluded"
+
+#: ../plista_integration_admin.php:230
+msgid "Exclude tags"
+msgstr "Exclude tags"
+
+#: ../plista_integration_admin.php:247
+msgid "Exclude post types"
+msgstr "Exclude post types"
+
+#: ../plista_integration_admin.php:264
+msgid "Exclude categories"
+msgstr "Exclude categories"
+
+#: ../plista_integration_admin.php:277
+msgid "No categories found"
+msgstr "No categories found"
+
+#: ../plista_integration_admin.php:284
+msgid "plista widget design"
+msgstr "plista widget design"
+
+#: ../plista_integration_admin.php:287
+msgid "I would like to change the widget design"
+msgstr "I would like to change the widget design"
+
+#: ../plista_integration_admin.php:292 ../plista_integration_admin.php:362
+msgid "Widgetheadline (font-size)"
+msgstr "Widgetheadline (font-size)"
+
+#: ../plista_integration_admin.php:298 ../plista_integration_admin.php:367
+msgid "Widgetheadline (font-color)"
+msgstr "Widgetheadline (font-color)"
+
+#: ../plista_integration_admin.php:304 ../plista_integration_admin.php:372
+msgid "Widgetheadline (background-color)"
+msgstr "Widgetheadline (background-color)"
+
+#: ../plista_integration_admin.php:310 ../plista_integration_admin.php:377
+msgid "Images (width)"
+msgstr "Images (width)"
+
+#: ../plista_integration_admin.php:316 ../plista_integration_admin.php:382
+msgid "Images (max-height)"
+msgstr "Images (max-height)"
+
+#: ../plista_integration_admin.php:322 ../plista_integration_admin.php:387
+msgid "Article headline (font-color)"
+msgstr "Article headline (font-color)"
+
+#: ../plista_integration_admin.php:328 ../plista_integration_admin.php:392
+msgid "Article headline (font-size)"
+msgstr "Article headline (font-size)"
+
+#: ../plista_integration_admin.php:334 ../plista_integration_admin.php:397
+msgid "Text (font-color)"
+msgstr "Text (font-color)"
+
+#: ../plista_integration_admin.php:340 ../plista_integration_admin.php:402
+msgid "Text (font-size)"
+msgstr "Text (font-size)"
+
+#: ../plista_integration_admin.php:346
+msgid "Mouseover (background-color)"
+msgstr "Mouseover (background-color)"
+
+#: ../plista_integration_admin.php:354
+msgid "plista widget mobile design for wptouch"
+msgstr "plista widget mobile design for wptouch"
+
+#: ../plista_integration_admin.php:357
+msgid "I would like to change the mobile widget design"
+msgstr "I would like to change the mobile widget design"

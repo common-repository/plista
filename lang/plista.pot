@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plista\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-19 09:16+0100\n"
+"PO-Revision-Date: 2016-01-19 09:16+0100\n"
+"Last-Translator: Michael <mich.scharnagl@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../plista_integration_admin.php:220
+msgid "Options saved."
+msgstr ""
+
+#: ../plista_integration_admin.php:271
+msgid "Hint"
+msgstr ""
+
+#: ../plista_integration_admin.php:272
+#, php-format
+msgid "You have to register at %1$s first to get all necessary data."
+msgstr ""
+
+#: ../plista_integration_admin.php:273
+#, php-format
+msgid "Please pay attention to the %1$s"
+msgstr ""
+
+#: ../plista_integration_admin.php:277
+msgid "Basic settings"
+msgstr ""
+
+#: ../plista_integration_admin.php:279 ../plista_integration_admin.php:285
+msgid "required"
+msgstr ""
+
+#: ../plista_integration_admin.php:281 ../plista_integration_admin.php:287
+#: ../plista_integration_admin.php:342 ../plista_integration_admin.php:429
+#: ../plista_integration_admin.php:435 ../plista_integration_admin.php:441
+#: ../plista_integration_admin.php:447 ../plista_integration_admin.php:453
+#: ../plista_integration_admin.php:459 ../plista_integration_admin.php:465
+#: ../plista_integration_admin.php:471 ../plista_integration_admin.php:477
+#: ../plista_integration_admin.php:483 ../plista_integration_admin.php:499
+#: ../plista_integration_admin.php:504 ../plista_integration_admin.php:509
+#: ../plista_integration_admin.php:514 ../plista_integration_admin.php:519
+#: ../plista_integration_admin.php:524 ../plista_integration_admin.php:529
+#: ../plista_integration_admin.php:534 ../plista_integration_admin.php:539
+msgid "e.g."
+msgstr ""
+
+msgid "Reinit"
+msgstr ""
+
+#: ../plista_integration_admin.php:285
+msgid "Publickey"
+msgstr ""
+
+#: ../plista_integration_admin.php:293
+msgid "Shorttag"
+msgstr ""
+
+#: ../plista_integration_admin.php:294
+msgid ""
+"In addition to automatically positioning the widget via the plugin, plista "
+"also offers the possibility to manually position the widget via the "
+"shortcode [plista]. The shortcode also provides additional setting options "
+"using the following parameters:"
+msgstr ""
+
+#: ../plista_integration_admin.php:296
+msgid ""
+"widgetname=WIDGETNAME (e.g. [plista widgetname=plista_widget_standard_2]):"
+msgstr ""
+
+#: ../plista_integration_admin.php:296
+msgid ""
+"For sites with multiple widgets in use, the parameter widgetname allows you "
+"to decide which widget should be displayed. If this parameter is not "
+"utilized, the widget in the default setting is automatically chosen."
+msgstr ""
+
+#: ../plista_integration_admin.php:297
+msgid ""
+"additional=1 (e.g. [plista widgetname=plista_widget_standard_2 "
+"additional=1]):"
+msgstr ""
+
+#: ../plista_integration_admin.php:297
+msgid ""
+"To display more than one widget on an article page (for example, below the "
+"article and in the sidebar), you can place other widgets with additional=1. "
+"Please note: the first widget is loaded without the parameter additional=1; "
+"all additional widgets must have the parameter additional=1 in order to be "
+"loaded."
+msgstr ""
+
+#: ../plista_integration_admin.php:298
+msgid "index=0 (e.g. [plista index=0]):"
+msgstr ""
+
+#: ../plista_integration_admin.php:298
+msgid ""
+"To display a widget in an article page without adding that article to the "
+"recommendation pool, you can disable the indexing of the article with "
+"index=0. Please note: the plista widget performs best with a large "
+"recommendation pool so this parameter is only suggested for a small number "
+"of article pages. "
+msgstr ""
+
+#: ../plista_integration_admin.php:300
+msgid ""
+"To learn more about how you can you integrate the shortcode directly into "
+"your template, click "
+msgstr ""
+
+#: ../plista_integration_admin.php:300
+msgid "here"
+msgstr ""
+
+#: ../plista_integration_admin.php:303
+msgid "Use Shorttag"
+msgstr ""
+
+#: ../plista_integration_admin.php:311
+msgid "Manual positioning of the widget:"
+msgstr ""
+
+#: ../plista_integration_admin.php:312
+msgid ""
+"With the addition of the shortcode, the old method of manual positioning is "
+"now outdated. For existing integrations the old method remains available, "
+"but all future widgets should use the shortcode feature."
+msgstr ""
+
+#: ../plista_integration_admin.php:315
+msgid "Yes, I would like to position the widget"
+msgstr ""
+
+#: ../plista_integration_admin.php:323
+msgid "Image Size"
+msgstr ""
+
+#: ../plista_integration_admin.php:324
+msgid ""
+"This field dictates the size of image thumbnails in the widget. Under "
+"Settings->Media sizing can be adjusted."
+msgstr ""
+
+#: ../plista_integration_admin.php:337 ../plista_integration_admin.php:340
+msgid "Default image"
+msgstr ""
+
+#: ../plista_integration_admin.php:338
+msgid "Define a default image for articles without an image."
+msgstr ""
+
+#: ../plista_integration_admin.php:340
+msgid "optional"
+msgstr ""
+
+#: ../plista_integration_admin.php:347
+msgid "Exclude pages"
+msgstr ""
+
+#: ../plista_integration_admin.php:350
+msgid "Don't show the widget on some pages"
+msgstr ""
+
+#: ../plista_integration_admin.php:354
+msgid "Exclude the following pages"
+msgstr ""
+
+#: ../plista_integration_admin.php:356
+msgid ""
+"Insert the Page-Id's separated by comma (e.g.: 5, 235, 1340) where the "
+"widget should be excluded"
+msgstr ""
+
+#: ../plista_integration_admin.php:365
+msgid "Exclude tags"
+msgstr ""
+
+#: ../plista_integration_admin.php:382
+msgid "Exclude post types"
+msgstr ""
+
+#: ../plista_integration_admin.php:399
+msgid "Exclude categories"
+msgstr ""
+
+#: ../plista_integration_admin.php:412
+msgid "No categories found"
+msgstr ""
+
+#: ../plista_integration_admin.php:419
+msgid "plista widget design"
+msgstr ""
+
+#: ../plista_integration_admin.php:422
+msgid "I would like to change the widget design"
+msgstr ""
+
+#: ../plista_integration_admin.php:427 ../plista_integration_admin.php:497
+msgid "Widgetheadline (font-size)"
+msgstr ""
+
+#: ../plista_integration_admin.php:433 ../plista_integration_admin.php:502
+msgid "Widgetheadline (font-color)"
+msgstr ""
+
+#: ../plista_integration_admin.php:439 ../plista_integration_admin.php:507
+msgid "Widgetheadline (background-color)"
+msgstr ""
+
+#: ../plista_integration_admin.php:445 ../plista_integration_admin.php:512
+msgid "Images (width)"
+msgstr ""
+
+#: ../plista_integration_admin.php:451 ../plista_integration_admin.php:517
+msgid "Images (max-height)"
+msgstr ""
+
+#: ../plista_integration_admin.php:457 ../plista_integration_admin.php:522
+msgid "Article headline (font-color)"
+msgstr ""
+
+#: ../plista_integration_admin.php:463 ../plista_integration_admin.php:527
+msgid "Article headline (font-size)"
+msgstr ""
+
+#: ../plista_integration_admin.php:469 ../plista_integration_admin.php:532
+msgid "Text (font-color)"
+msgstr ""
+
+#: ../plista_integration_admin.php:475 ../plista_integration_admin.php:537
+msgid "Text (font-size)"
+msgstr ""
+
+#: ../plista_integration_admin.php:481
+msgid "Mouseover (background-color)"
+msgstr ""
+
+#: ../plista_integration_admin.php:489
+msgid "plista widget mobile design for wptouch"
+msgstr ""
+
+#: ../plista_integration_admin.php:492
+msgid "I would like to change the mobile widget design"
+msgstr ""

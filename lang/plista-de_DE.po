@@ -1,0 +1,400 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plista\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-19 09:16+0100\n"
+"PO-Revision-Date: 2016-01-19 09:23+0100\n"
+"Last-Translator: Michael <mich.scharnagl@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../plista_integration_admin.php:220
+msgid "Options saved."
+msgstr "Änderungen gespeichert"
+
+#: ../plista_integration_admin.php:271
+msgid "Hint"
+msgstr "Hinweis"
+
+#: ../plista_integration_admin.php:272
+#, php-format
+msgid "You have to register at %1$s first to get all necessary data."
+msgstr ""
+"Bitte registrieren Sie sich erst bei %1$s um alle notwendigen Daten zu "
+"erhalten."
+
+#: ../plista_integration_admin.php:273
+#, php-format
+msgid "Please pay attention to the %1$s"
+msgstr "Bitte beachten Sie die Hinweise in der %1$s"
+
+#: ../plista_integration_admin.php:277
+msgid "Basic settings"
+msgstr "Grundeinstellungen"
+
+#: ../plista_integration_admin.php:279 ../plista_integration_admin.php:285
+msgid "required"
+msgstr "erforderlich"
+
+#: ../plista_integration_admin.php:281 ../plista_integration_admin.php:287
+#: ../plista_integration_admin.php:342 ../plista_integration_admin.php:429
+#: ../plista_integration_admin.php:435 ../plista_integration_admin.php:441
+#: ../plista_integration_admin.php:447 ../plista_integration_admin.php:453
+#: ../plista_integration_admin.php:459 ../plista_integration_admin.php:465
+#: ../plista_integration_admin.php:471 ../plista_integration_admin.php:477
+#: ../plista_integration_admin.php:483 ../plista_integration_admin.php:499
+#: ../plista_integration_admin.php:504 ../plista_integration_admin.php:509
+#: ../plista_integration_admin.php:514 ../plista_integration_admin.php:519
+#: ../plista_integration_admin.php:524 ../plista_integration_admin.php:529
+#: ../plista_integration_admin.php:534 ../plista_integration_admin.php:539
+msgid "e.g."
+msgstr "z.B."
+
+msgid "Reinit"
+msgstr "Widgets auf einer Seite werden neu geladen, wenn eine neue plista Platzierung eingefügt wird (z.B bei \"Infinite Scroll Websites\")."
+
+#: ../plista_integration_admin.php:285
+msgid "Publickey"
+msgstr "Publickey"
+
+#: ../plista_integration_admin.php:293
+msgid "Shorttag"
+msgstr "Shorttag"
+
+#: ../plista_integration_admin.php:294
+msgid ""
+"In addition to automatically positioning the widget via the plugin, plista "
+"also offers the possibility to manually position the widget via the "
+"shortcode [plista]. The shortcode also provides additional setting options "
+"using the following parameters:"
+msgstr ""
+"Neben der automatischen Positionierung des Widgets über das plista-Plugin "
+"bieten wir Ihnen die Möglichkeit, das Widget auch manuell über das Shortcode "
+"[plista] zu positionieren. Der Shortcode ermöglicht Ihnen darüber hinaus "
+"weitere Einstellungsmöglichkeiten mittels folgender Parameter:"
+
+#: ../plista_integration_admin.php:296
+msgid ""
+"widgetname=WIDGETNAME (e.g. [plista widgetname=plista_widget_standard_2]):"
+msgstr ""
+"widgetname=WIDGETNAME (z.B. [plista widgetname=plista_widget_standard_2]):"
+
+#: ../plista_integration_admin.php:296
+msgid ""
+"For sites with multiple widgets in use, the parameter widgetname allows you "
+"to decide which widget should be displayed. If this parameter is not "
+"utilized, the widget in the default setting is automatically chosen."
+msgstr ""
+"Sollten Sie mehrere Widgets im Einsatz haben, können Sie mit dem Parameter "
+"widgetname bestimmen, welches Widget Sie anzeigen lassen wollen. Sofern der "
+"Parameter weggelassen wird, wird automatisch das Widget genutzt, das in der "
+"Grundeinstellung hinterlegt wurde."
+
+#: ../plista_integration_admin.php:297
+msgid ""
+"additional=1 (e.g. [plista widgetname=plista_widget_standard_2 "
+"additional=1]):"
+msgstr ""
+"additional=1 z.B. [plista widgetname=plista_widget_standard_2 additional=1]):"
+
+#: ../plista_integration_admin.php:297
+msgid ""
+"To display more than one widget on an article page (for example, below the "
+"article and in the sidebar), you can place other widgets with additional=1. "
+"Please note: the first widget is loaded without the parameter additional=1; "
+"all additional widgets must have the parameter additional=1 in order to be "
+"loaded."
+msgstr ""
+"Möchten Sie mehr als ein Widget in Ihre Artikelseite einbinden (z.B. in die "
+"Sidebar), können Sie mit additional=1 weitere Widgets platzieren. Bitte "
+"beachten Sie: Das erste Widget wird ohne dem Parameter additional=1 geladen. "
+"Jedes weitere Widget muss jedoch mit dem Parameter additional=1 "
+"gekennzeichnet werden, um geladen werden zu können."
+
+#: ../plista_integration_admin.php:298
+msgid "index=0 (e.g. [plista index=0]):"
+msgstr "index=0 (z.B. [plista index=0]):"
+
+#: ../plista_integration_admin.php:298
+msgid ""
+"To display a widget in an article page without adding that article to the "
+"recommendation pool, you can disable the indexing of the article with "
+"index=0. Please note: the plista widget performs best with a large "
+"recommendation pool so this parameter is only suggested for a small number "
+"of article pages. "
+msgstr ""
+"Möchten Sie das Widget in Artikeln und Seiten anzeigen lassen, die selber "
+"allerdings nicht empfohlen werden sollen, können Sie mit index=0 die "
+"Indexierung des Artikels unterbinden. Ohne eine generelle Indexierung Ihres "
+"Contents ist die Funktionsweise erheblich eingeschränkt, daher sollte diese "
+"Funktion nur für kleine Bereiche genutzt werden."
+
+#: ../plista_integration_admin.php:300
+msgid ""
+"To learn more about how you can you integrate the shortcode directly into "
+"your template, click "
+msgstr ""
+"Wie Sie Shortcodes direkt in Ihr Template integrieren können, erfahren Sie"
+
+#: ../plista_integration_admin.php:300
+msgid "here"
+msgstr "hier"
+
+#: ../plista_integration_admin.php:303
+msgid "Use Shorttag"
+msgstr "Shorttag verwenden"
+
+#: ../plista_integration_admin.php:311
+msgid "Manual positioning of the widget:"
+msgstr "Manuelle Position des Widgets:"
+
+#: ../plista_integration_admin.php:312
+msgid ""
+"With the addition of the shortcode, the old method of manual positioning is "
+"now outdated. For existing integrations the old method remains available, "
+"but all future widgets should use the shortcode feature."
+msgstr ""
+"Dieses Feature ist veraltet und sollte zukünftig nicht mehr genutzt werden. "
+"Für bestehende Integrationen ist dieses Feature weiterhin verfügbar. Bitte "
+"benutzen Sie in Zukunft das Shortcode-Feature."
+
+#: ../plista_integration_admin.php:315
+msgid "Yes, I would like to position the widget"
+msgstr "Ja, Ich möchte das Widget selbst positionieren"
+
+#: ../plista_integration_admin.php:323
+msgid "Image Size"
+msgstr "Bildgröße"
+
+#: ../plista_integration_admin.php:324
+msgid ""
+"This field dictates the size of image thumbnails in the widget. Under "
+"Settings->Media sizing can be adjusted."
+msgstr ""
+"Bestimmen Sie die Größe der übermittelten Vorschaubilder. Unter "
+"Einstellungen->Medien können Sie die Größen der Vorschaubilder zusätzlich "
+"anpassen."
+
+#: ../plista_integration_admin.php:337 ../plista_integration_admin.php:340
+msgid "Default image"
+msgstr "Standardbild"
+
+#: ../plista_integration_admin.php:338
+msgid "Define a default image for articles without an image."
+msgstr ""
+"Geben Sie hier ein Standardbild an welches bei allen Artikeln ohne eigenen "
+"Bild erscheinen soll."
+
+#: ../plista_integration_admin.php:340
+msgid "optional"
+msgstr "optional"
+
+#: ../plista_integration_admin.php:347
+msgid "Exclude pages"
+msgstr "Seiten ausschließen"
+
+#: ../plista_integration_admin.php:350
+msgid "Don't show the widget on some pages"
+msgstr "Das Widget von einigen Seiten ausschließen"
+
+#: ../plista_integration_admin.php:354
+msgid "Exclude the following pages"
+msgstr "Folgende Seiten ausschließen"
+
+#: ../plista_integration_admin.php:356
+msgid ""
+"Insert the Page-Id's separated by comma (e.g.: 5, 235, 1340) where the "
+"widget should be excluded"
+msgstr ""
+"Geben Sie hier die Page-Id`s getrennt durch Kommas ein (zB. 5, 235, 1340) "
+"bei welchen das Widget nicht angezeigt werden soll"
+
+#: ../plista_integration_admin.php:365
+msgid "Exclude tags"
+msgstr "Schlagwörter ausschließen"
+
+#: ../plista_integration_admin.php:382
+msgid "Exclude post types"
+msgstr "Seiten ausschließen"
+
+#: ../plista_integration_admin.php:399
+msgid "Exclude categories"
+msgstr "Kategorien ausschließen"
+
+#: ../plista_integration_admin.php:412
+msgid "No categories found"
+msgstr "Kategorie nicht gefunden"
+
+#: ../plista_integration_admin.php:419
+msgid "plista widget design"
+msgstr "Design des plista Widgets"
+
+#: ../plista_integration_admin.php:422
+msgid "I would like to change the widget design"
+msgstr "Ich möchte das Design des Widgets anpassen"
+
+#: ../plista_integration_admin.php:427 ../plista_integration_admin.php:497
+msgid "Widgetheadline (font-size)"
+msgstr "Überschrift des Widgets (Schriftgröße)"
+
+#: ../plista_integration_admin.php:433 ../plista_integration_admin.php:502
+msgid "Widgetheadline (font-color)"
+msgstr "Überschrift des Widgets (Schriftfarbe)"
+
+#: ../plista_integration_admin.php:439 ../plista_integration_admin.php:507
+msgid "Widgetheadline (background-color)"
+msgstr "Überschrift des Widgets (Hintergrundfarbe)"
+
+#: ../plista_integration_admin.php:445 ../plista_integration_admin.php:512
+msgid "Images (width)"
+msgstr "Bilder (Breite)"
+
+#: ../plista_integration_admin.php:451 ../plista_integration_admin.php:517
+msgid "Images (max-height)"
+msgstr "Bilder (max. Höhe)"
+
+#: ../plista_integration_admin.php:457 ../plista_integration_admin.php:522
+msgid "Article headline (font-color)"
+msgstr "Artikelüberschrift (Schriftfarbe)"
+
+#: ../plista_integration_admin.php:463 ../plista_integration_admin.php:527
+msgid "Article headline (font-size)"
+msgstr "Artikelüberschrift (Schriftgröße)"
+
+#: ../plista_integration_admin.php:469 ../plista_integration_admin.php:532
+msgid "Text (font-color)"
+msgstr "Text (Schriftfarbe)"
+
+#: ../plista_integration_admin.php:475 ../plista_integration_admin.php:537
+msgid "Text (font-size)"
+msgstr "Text (Schriftgröße)"
+
+#: ../plista_integration_admin.php:481
+msgid "Mouseover (background-color)"
+msgstr "Mouseover (Hintergrundfarbe)"
+
+#: ../plista_integration_admin.php:489
+msgid "plista widget mobile design for wptouch"
+msgstr "Design des plista Widgets für die mobile Seite (wptouch)"
+
+#: ../plista_integration_admin.php:492
+msgid "I would like to change the mobile widget design"
+msgstr "Ich möchte das Design des mobilen Widgets anpassen"
+
+#~ msgid "Widgetname"
+#~ msgstr "Name des Widgets"
+
+#~ msgid ""
+#~ "In case you want to position the widget on your own, please insert the "
+#~ "following shorttag: [plista]"
+#~ msgstr ""
+#~ "Sollten Sie das Widget eigenständig positionieren wollen, können Sie den "
+#~ "Shorttag [plista] verwenden."
+
+#~ msgid ""
+#~ "On pages you don`t want to recommend, you will be able to use [plista "
+#~ "index=0] to prevent this article from being crawled."
+#~ msgstr ""
+#~ "Mit dem Parameter index=0 (z.B. [plista index=0] können Sie zusätzlich "
+#~ "sicherstellen, dass dieser Artikel nicht vom Widget empfohlen wird."
+
+#~ msgid ""
+#~ "If you have more than one widget you may adress the name of the widget "
+#~ "with [plista widgetname=<your widget name>], e.g. [plista "
+#~ "widgetname=plista_widget_belowArticle]."
+#~ msgstr ""
+#~ "Sollten Sie mehr als ein Widget nutzen, können Sie mit dem Parameter "
+#~ "widgetname= gefolgt vom Widgetnamen ein bestimmtes Widget ansprechen, z."
+#~ "B. [plista widgetname=plista_widget_belowArticle]."
+
+#~ msgid ""
+#~ "In case you want to have more than one widget at the same page, please "
+#~ "use [plista widgetname=<your widget name> additional=1] for the second "
+#~ "and all following widgets on that page."
+#~ msgstr ""
+#~ "Sofern Sie mehr als ein Widget gleichzeitig auf der Artikelseite anzeigen "
+#~ "wollen, nutzen Sie bitte für jedes Widget nach dem ersten zusätzlich den "
+#~ "Parameter additional=1, z.B. [plista additional=1 "
+#~ "widgetname=plista_widget_sidebar]."
+
+#~ msgid "Widget position"
+#~ msgstr "Position des Widgets"
+
+#~ msgid "deprecated, please use Shorttags"
+#~ msgstr "veraltet, bitte verwenden Sie Shorttags"
+
+#~ msgid ""
+#~ "The widget will be shown automatically at the bottom of every article."
+#~ msgstr "Das Widget wird automatisch am Ende des Artikels angezeigt."
+
+#~ msgid ""
+#~ "Only check the option if you want to insert the widget on a different "
+#~ "position like the sidebar."
+#~ msgstr ""
+#~ "Aktivieren Sie diese Option nur, falls Sie das Widget selbst "
+#~ "positionieren wollen (zb. in der Sidebar)."
+
+#~ msgid "Please read point 11. of the %1$s before activating self positioning"
+#~ msgstr ""
+#~ "Bitte beachten Sie Punkt 11. der %1$s bevor Sie das Widget selbst "
+#~ "positionieren."
+
+#~ msgid "Define the size of the preview images."
+#~ msgstr "Bestimmen Sie die Größe der Vorschaubilder"
+
+#~ msgid "Image width"
+#~ msgstr "Bild (Breite)"
+
+#~ msgid "Aspect ratio"
+#~ msgstr "Bildformat"
+
+#~ msgid "URL"
+#~ msgstr "Url des Widgets"
+
+#~ msgid ""
+#~ "Did plista prepare pictureAds for this domain? Otherwise feel free to "
+#~ "contact the Support-Team."
+#~ msgstr ""
+#~ "Wurden die pictureAds von plista bereits vorbereitet? Wenn nein, "
+#~ "kontaktieren Sie gern den Support."
+
+#~ msgid ""
+#~ "In order to use pictureAds the article images should at least have the "
+#~ "size of 350px. For further information please contact %1$s"
+#~ msgstr ""
+#~ "Um plista pictureAds nutzen zu können, benötigen Sie Bilder mit "
+#~ "mindestens 350px Breite. Für weitere Informationen kontaktieren Sie bitte "
+#~ "%1$s"
+
+#~ msgid "close"
+#~ msgstr "schließen"
+
+#~ msgid "Activate plista pictureAds"
+#~ msgstr "plista pictureAds aktivieren"
+
+#~ msgid ""
+#~ "Insert the Page-Id's separated by comma (e.g.: 2, 89, 520) where "
+#~ "pictureAds should be excluded"
+#~ msgstr ""
+#~ "Geben Sie hier die Page-Id`s getrennt durch Kommas ein (zB. 2, 89, 520) "
+#~ "bei welchen pictureAds nicht angezeigt werden soll"
+
+#~ msgid "For more information about finding the page id please visit"
+#~ msgstr ""
+#~ "Für nähere Informationen wie Sie die Page-Id finden können besuchen Sie "
+#~ "bitte"
+
+#~ msgid "Your plista widget"
+#~ msgstr "Ihr plista Widget"
+
+#~ msgid "plista settings"
+#~ msgstr "plista Einstellungen"
+
+#~ msgid "For example"
+#~ msgstr "Zum Beispiel"

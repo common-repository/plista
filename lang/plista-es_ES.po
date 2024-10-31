@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plista 1.3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-17 16:23+0100\n"
+"PO-Revision-Date: 2015-03-17 16:24+0100\n"
+"Last-Translator: Michael <mich.scharnagl@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: D:\\Proyectos Web\\Traducciones\\plista\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../plista_integration_admin.php:120
+msgid "Options saved."
+msgstr "Opciones guardadas."
+
+#: ../plista_integration_admin.php:169
+msgid "Hint"
+msgstr "Sugerencia"
+
+#: ../plista_integration_admin.php:170
+#, php-format
+msgid "You have to register at %1$s first to get all necessary data."
+msgstr "Debe registrarse primero en %1$s para conseguir los datos necesarios"
+
+#: ../plista_integration_admin.php:171
+#, php-format
+msgid "Please pay attention to the %1$s"
+msgstr "Por favor, preste atención a %1$s"
+
+#: ../plista_integration_admin.php:175
+msgid "Basic settings"
+msgstr "Opciones básicas"
+
+#: ../plista_integration_admin.php:177
+msgid "Widgetname"
+msgstr "Nombre del widget"
+
+#: ../plista_integration_admin.php:177
+#: ../plista_integration_admin.php:183
+msgid "required"
+msgstr "necesario"
+
+#: ../plista_integration_admin.php:179
+#: ../plista_integration_admin.php:185
+#: ../plista_integration_admin.php:207
+#: ../plista_integration_admin.php:294
+#: ../plista_integration_admin.php:300
+#: ../plista_integration_admin.php:306
+#: ../plista_integration_admin.php:312
+#: ../plista_integration_admin.php:318
+#: ../plista_integration_admin.php:324
+#: ../plista_integration_admin.php:330
+#: ../plista_integration_admin.php:336
+#: ../plista_integration_admin.php:342
+#: ../plista_integration_admin.php:348
+#: ../plista_integration_admin.php:364
+#: ../plista_integration_admin.php:369
+#: ../plista_integration_admin.php:374
+#: ../plista_integration_admin.php:379
+#: ../plista_integration_admin.php:384
+#: ../plista_integration_admin.php:389
+#: ../plista_integration_admin.php:394
+#: ../plista_integration_admin.php:399
+#: ../plista_integration_admin.php:404
+msgid "e.g."
+msgstr "por ejemplo"
+
+#: ../plista_integration_admin.php:183
+msgid "Publickey"
+msgstr ""
+
+#: ../plista_integration_admin.php:190
+msgid "Widget position"
+msgstr "Posición del widget"
+
+#: ../plista_integration_admin.php:191
+msgid "The widget will be shown automatically at the bottom of every article."
+msgstr "El widget se mostrará automáticamente debajo de cada artículo."
+
+#: ../plista_integration_admin.php:192
+msgid "Only check the option if you want to insert the widget on a different position like the sidebar."
+msgstr "Sólo marque la opción si se desea insertar el widget en una posición diferente, como la barra lateral"
+
+#: ../plista_integration_admin.php:193
+#, php-format
+msgid "Please read point 11. of the %1$s before activating self positioning"
+msgstr "Por favor, lea el punto 11 de %1$s antes de desactivar el posicionamiento automático"
+
+#: ../plista_integration_admin.php:196
+msgid "Yes, I would like to position the widget"
+msgstr "Sí, quiero cambiar la posición del widget."
+
+#: ../plista_integration_admin.php:202
+#: ../plista_integration_admin.php:205
+msgid "Default image"
+msgstr "Imágen predeterminada"
+
+#: ../plista_integration_admin.php:203
+msgid "Define a default image for articles without an image."
+msgstr "Defina una imagen predeterminada para los artículos que no contengan imágenes."
+
+#: ../plista_integration_admin.php:205
+msgid "optional"
+msgstr "opcional"
+
+#: ../plista_integration_admin.php:212
+msgid "Exclude pages"
+msgstr "Excluir páginas"
+
+#: ../plista_integration_admin.php:215
+msgid "Don't show the widget on some pages"
+msgstr "No mostrar el widget en algunas páginas"
+
+#: ../plista_integration_admin.php:219
+msgid "Exclude the following pages"
+msgstr "Excluir las siguientes páginas:"
+
+#: ../plista_integration_admin.php:221
+msgid "Insert the Page-Id's separated by comma (e.g.: 5, 235, 1340) where the widget should be excluded"
+msgstr "Inserte los IDs de las páginas, separados por comas (por ejemplo: 5, 235, 1340), donde el widget debe ser excluido"
+
+#: ../plista_integration_admin.php:230
+msgid "Exclude tags"
+msgstr "Excluir tags"
+
+#: ../plista_integration_admin.php:247
+#, fuzzy
+msgid "Exclude post types"
+msgstr "Excluir páginas"
+
+#: ../plista_integration_admin.php:264
+msgid "Exclude categories"
+msgstr "Excluir categorías"
+
+#: ../plista_integration_admin.php:277
+msgid "No categories found"
+msgstr ""
+
+#: ../plista_integration_admin.php:284
+msgid "plista widget design"
+msgstr "Diseño del widget plista"
+
+#: ../plista_integration_admin.php:287
+msgid "I would like to change the widget design"
+msgstr "Me gustaría cambiar el diseño del widget"
+
+#: ../plista_integration_admin.php:292
+#: ../plista_integration_admin.php:362
+msgid "Widgetheadline (font-size)"
+msgstr "Título, tamaño de la letra (font-size)"
+
+#: ../plista_integration_admin.php:298
+#: ../plista_integration_admin.php:367
+msgid "Widgetheadline (font-color)"
+msgstr "Título, color de la letra (font-color)"
+
+#: ../plista_integration_admin.php:304
+#: ../plista_integration_admin.php:372
+msgid "Widgetheadline (background-color)"
+msgstr "Título, color de fondo (background-color)"
+
+#: ../plista_integration_admin.php:310
+#: ../plista_integration_admin.php:377
+msgid "Images (width)"
+msgstr "Imágenes, ancho (width)"
+
+#: ../plista_integration_admin.php:316
+#: ../plista_integration_admin.php:382
+msgid "Images (max-height)"
+msgstr "Imágenes, altura máxima (max-height)"
+
+#: ../plista_integration_admin.php:322
+#: ../plista_integration_admin.php:387
+msgid "Article headline (font-color)"
+msgstr "Título del artículo, color de la letra (font-color)"
+
+#: ../plista_integration_admin.php:328
+#: ../plista_integration_admin.php:392
+msgid "Article headline (font-size)"
+msgstr "Título del artículo, tamaño de la letra (font-size)"
+
+#: ../plista_integration_admin.php:334
+#: ../plista_integration_admin.php:397
+msgid "Text (font-color)"
+msgstr "Texto, color de la letra (font-color)"
+
+#: ../plista_integration_admin.php:340
+#: ../plista_integration_admin.php:402
+msgid "Text (font-size)"
+msgstr "Texto, tamaño de la letra (font-size)"
+
+#: ../plista_integration_admin.php:346
+msgid "Mouseover (background-color)"
+msgstr "Mouseover (background-color)"
+
+#: ../plista_integration_admin.php:354
+msgid "plista widget mobile design for wptouch"
+msgstr "Diseño del widget plista para móviles en wptouch"
+
+#: ../plista_integration_admin.php:357
+msgid "I would like to change the mobile widget design"
+msgstr "Me gustaría cambiar el diseño del widget para móviles"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid ""
+#~ "Did plista prepare pictureAds for this domain? Otherwise feel free to "
+#~ "contact the Support-Team."
+#~ msgstr ""
+#~ "Os preparo plista pictureAds para este dominio? Si no fue así, contacta "
+#~ "con con el equipo de soporte porfavor."
+
+#~ msgid ""
+#~ "In order to use pictureAds the article images should at least have the "
+#~ "size of 350px. For further information please contact %1$s"
+#~ msgstr ""
+#~ "Para poder utilizar pictureAds, el tamaño de las imágenes de los "
+#~ "artículos debe ser de al menos 350px. Para más información póngase en "
+#~ "contacto con %1$s"
+
+#~ msgid "close"
+#~ msgstr "cerrar"
+
+#~ msgid "Activate plista pictureAds"
+#~ msgstr "Activar plista pictureAds"
+
+#~ msgid ""
+#~ "Insert the Page-Id's separated by comma (e.g.: 2, 89, 520) where "
+#~ "pictureAds should be excluded"
+#~ msgstr ""
+#~ "Inserte los IDs de las páginas, separados por comas (por ejemplo: 5, 235, "
+#~ "1340), donde pictureAds debe ser excluido"
+
+#~ msgid "For more information about finding the page id please visit"
+#~ msgstr ""
+#~ "Para más información sobre cómo encontrar el identificador de página por "
+#~ "favor visite"
+
+#~ msgid "Save Changes"
+#~ msgstr "Guardar cambios"
